@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "arg": [],
+            "name": "launch",
+            "program": "${workspaceFolder}/main.lua",
+            "request": "launch",
+            "stopOnEntry": true,
+            "type": "lua"
+        },
+        {
+            "name": "attach",
+            "processId": "${command:pickProcess}",
+            "request": "attach",
+            "stopOnEntry": true,
+            "type": "lua"
+        },
+        {
+            "address": "127.0.0.1:4278",
+            "name": "attach",
+            "request": "attach",
+            "stopOnEntry": true,
+            "type": "lua"
+        }
+    ]
+}
