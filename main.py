@@ -13,6 +13,7 @@ r=requests.get(url,headers=headers)
 
 # -*- coding:utf-8 -*-
 
-file = open('Desktop.txt','a+')
+file = open('cookies.txt','a+')
 
 file.write(str(r.cookies)+"\n")
+input()
